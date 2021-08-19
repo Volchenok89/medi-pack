@@ -24,11 +24,14 @@ Then, if there is a simple treatment, it will avoid a long trip to the doctor’
 Doctors can simply prescribe medication requests made by users. They can also answer messages from their patients, 
 and will be able to change the status of a patient's visit.
 
-
-
-
-
-
+![medipack-home](https://user-images.githubusercontent.com/77917594/130139186-d3b7b989-9d3f-4b3e-99ef-913e6d85f024.png)
+![medi-pack-patient](https://user-images.githubusercontent.com/77917594/130139214-898e5828-21ac-4c53-8fcf-6abba82d239e.png)
+![medi-pack-doctor](https://user-images.githubusercontent.com/77917594/130139238-f426c5a7-923e-417e-9dc5-0b60d2b357bf.png)
+![pharmacy](https://user-images.githubusercontent.com/77917594/130139266-a652b1be-4612-44d1-a1e3-9d846f15584e.png)
+![medi-pack-orders](https://user-images.githubusercontent.com/77917594/130139282-3e15bff3-64e2-4f9a-ba44-f7811ddcc140.png)
+![medi-pack-about](https://user-images.githubusercontent.com/77917594/130139297-c11aa751-c948-4c01-983f-096ab67e361f.png)
+![medi-pack-faqs](https://user-images.githubusercontent.com/77917594/130139318-3e2542e6-2a28-48a4-b5b8-6fafb654fc14.png)
+![medi-pack-cov](https://user-images.githubusercontent.com/77917594/130139335-4713fea1-c8c5-43d2-bb85-4affecb9a226.png)
 
 
 ___
@@ -45,7 +48,7 @@ ___
 
 ## Links for the Github repositories and the deployed application.
 
-(https://github.com/Volchenok89/medi-pack)
+https://github.com/Volchenok89/medi-pack
 
 https://medi-pack.herokuapp.com
 
