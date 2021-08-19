@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.login-page-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #49a09d, #5f2c82);
+}
+
+.login-panel{
+    background-color: white;
+    height: 80vh;
+    width: 420px;
+    max-width: 90%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.login-panel h1{
+    text-align: center;
+    margin-top: 45px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    color: #252525;
+}
+
+.login-container-inner-div{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container-inner-div form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container-inner-div label{
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.input{
+    border: 1px solid lightgray;
+    height: 30px; 
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px;
+}
+
+.lbtn{
+    height: 35px;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #49a09d, #5f2c82);
+    color: white;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.content-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.full {
+    width: 100%;
+    height: 100vh;
+}
+.text-center {
+    text-align: center;
+}
+.home {
+    display: flex;
+}
+.home>.side-nav {
+    width: 300px;
+    height: 100vh;
+}
+.doctorhome>.side-nav {
+    background: #0F2027 !important;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2C5364, #203A43, #0F2027) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+.patienthome>.side-nav {
+    background: #2980b9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #304b67, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+.superuserhome>.side-nav {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000000,  #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+.side-nav>.logo-area {
+    text-align: center;
+    padding: 16px;
+    border-bottom: 1px solid #eee;
+    font-size: 20px;
+}
+.home-content {
+    width: calc(100% - 300px);
+    height: 100vh;
+    background-color: #e0e0e0;
+    overflow-y: auto;
+}
+.side-nav .side-nav-content-area {
+    padding: 16px;
+}
+.side-nav .nav-list {
+    padding: 0;
+    list-style: none;
+}
+.side-nav .nav-list>li {
+    margin-bottom: 8px;
+    padding: 10px;
+}
+.side-nav .nav-list>li>a {
+    display: flex;
+    align-self: center;
+    color: #eee;
+}
+.side-nav .nav-list>li>a>img {
+    width: 25px;
+    margin-right: 10px;
+}
+.home-title {
+    background-color: #fff;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+}
+.main-content-area {
+    padding: 20px;
+}
+.card {
+    background-color: #fff;
+}
+.card-title {
+    padding: 10px;
+    font-size: 17px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.card-body {
+    padding: 10px;
+}
+.general-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.general-list-item {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+}
+.general-list-item-content {
+    width: calc(100% - 70px);
+}
+.general-list-item-title {
+    display: block;
+    font-weight: bold;
+}
+.general-list-item-meta {
+    color: #353535;
+    display: block;
+    font-size: 14px;
+}
+.general-list-item-desc {
+    margin-bottom: 8px;
+    display: block;
+}
+.general-list-item-controls {
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.general-list-item-ctrl-btn {
+    cursor: pointer;
+    display: block;
+    margin-left: 5px;
+}
+#completed-appointments-card {
+    max-height: 400px;
+    min-height: 400px;
+    overflow-y: auto;
+}
+#pernding-appointments-card {
+    max-height: 400px;
+    min-height: 400px;
+    overflow-y: auto;
+}
+.medicine-card-image {
+    height: 250px;
+    object-fit: cover;
+}
+.home-title>.page-controls {
+    position: absolute;
+    right: 20px;
+    top: 22px;
+    display: flex;
+    align-items: center;
+}
+.home-title>.page-controls>.page-control-btn {
+    cursor: pointer;
+    color: #0098d6;
+}
+.modal-title {
+    margin-top: 0;
+}
+.secondry-navbar {
+    padding: 20px 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.secondry-navbar>.logo-sec {
+
+}
+.secondry-navbar>.right-links-sec {
+    display: flex;
+}
+.secondry-navbar>.right-links-sec>.nav-link {
+    display: block;
+}
+.hero-section {
+    display: flex;
+    height: 600px;
+    position: relative;
+    background: #00F260;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #0575E6, #00e7f2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #0575E6, #00e7f2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.hero-section>.hero-image {
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+}
+.hero-section>.hero-image>img {
+    width: 400px;
+}
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 126px;
+    font-weight: 800;
+}
+.hero-text>h2 {
+    text-transform: uppercase;
+    color: #fff;
+}
+.aboutus-section-1 {
+    padding: 20px 42px;
+}
+.feature-image {
+    width: 100px;
+}
+.secondary-footer {
+    padding: 20px 40px;
+    background-color: #222;
+    color: #ffffff;
+    text-align: center;
+}
+.faq-section {
+    height: calc(100vh - 143px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faq-section .accordion {
+    width: 100%;
+}
+.faq-section .accordion .card .card-header {
+    padding: 15px 15px;
+}
+.faq-section .accordion>.card {
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.faq-section .accordion .card .card-header {
+    background-color: #eeeeee;
+}
+.covid-guidelines {
+    font-size: 20px;
+    font-weight: bold;
+}
+.about-covid-sec-1 {
+    height: 640px;
+    background: linear-gradient(45deg, #228e57, #00f3ff);
+}
+
+.about-covid-sec-2 {
+    padding: 20px 40px;
+    
+}
+#custom-alert {
+    position: absolute;
+    right: 20px;
+    top: 80px;
+    opacity: 0;
+    background-color: #0098d6;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 8px;
+    z-index: 1;
+    transition: opacity 0.3s;
+    pointer-events: none;
+    min-width: 200px;
+}
+#custom-alert-msg {
+    margin-left: 10px;
+}
+@media screen and (max-width: 844px) {
+    .hero-section {
+        display: block;
+    }
+    .hero-text {
+        margin-left: 30px;
+    }
+}
