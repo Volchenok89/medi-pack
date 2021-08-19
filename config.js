@@ -1,0 +1,3 @@
+module.exports.dbConnectionString = "mongodb://abdulrehman_user:oN9HlwbHtBpbajqo@cluster0-shard-00-00.3rwrp.mongodb.net:27017,cluster0-shard-00-01.3rwrp.mongodb.net:27017,cluster0-shard-00-02.3rwrp.mongodb.net:27017/book_a_doctor?ssl=true&replicaSet=atlas-wugfxu-shard-0&authSource=admin&retryWrites=true&w=majority";
+module.exports.dbName = "book_a_doctor";
+module.exports.tokenSecret = "0e4223f7f8481a8f6fdfb24817eeea83c33ae13925d1528e6be59d241c17bbcbd079d47aa83146413aa560223da77acfa31bbfa61f6642abe4d9fd0eabb0ffa3";
