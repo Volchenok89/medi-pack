@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const apiBaseUrl = "http://localhost:5000";
+const apiBaseUrl = "https://medi-pack-api.herokuapp.com";
 
 export default {
     
